@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
-function Header() {
+const Header = () => {
   return (
     <nav className="header">
       {/* Logo in the left */}
@@ -60,6 +60,6 @@ function Header() {
       </Link>
     </nav>
   );
-}
+};
 
 export default Header;
