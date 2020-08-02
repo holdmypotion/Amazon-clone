@@ -3,8 +3,17 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import { useStateValue } from "../StateProvider";
 
 const Header = () => {
+  // In my understanding here we have created a custom hook
+  // This hook holds the state of a particular property
+  // In this items in the cart.
+  // This hook is sort of like a global state that can be called
+  // In any component whatsoever. So no prop drilling.
+  // Earlier we were creating states in a particular components and then
+  // later used to pass it down to children component if needed.
+  const [{ basket }] = useStateValue();
   return (
     <nav className="header">
       {/* Logo in the left */}
@@ -55,7 +64,9 @@ const Header = () => {
           {/* Shopping basket icon */}
           <ShoppingBasketIcon />
           {/* Number of items in the basket */}
-          <span className="header__optionLineTwo header__basketCount">0</span>
+          <span className="header__optionLineTwo header__basketCount">
+            {basket?.length}
+          </span>
         </div>
       </Link>
     </nav>

@@ -12,7 +12,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
@@ -21,7 +21,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
@@ -32,7 +32,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
@@ -40,7 +40,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
@@ -48,7 +48,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
@@ -59,7 +59,7 @@ const Home = () => {
         {/* Product id, title, price, rating, image */}
         <Product
           id="124545"
-          title="The Lean Startup"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/41Um2UPO1yL._SX325_BO1,204,203,200_.jpg"
