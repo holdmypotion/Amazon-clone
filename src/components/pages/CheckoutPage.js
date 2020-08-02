@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../Header";
+import Checkout from "../Checkout";
 
 function CheckoutPage() {
   return (
     <div className="checkoutPage">
       <Header />
-      <h1>CheckoutPage</h1>
+      <Checkout />
     </div>
   );
 }
